@@ -5,6 +5,8 @@ const connectDB = require('./db')
 const name = require('./model')
 const app = express()
 
+dotenv.config()
+
 connectDB()
 
 app.use(express.json())
