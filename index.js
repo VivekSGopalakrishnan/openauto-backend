@@ -9,7 +9,7 @@ const cors = require('cors')
 app.options("*", cors())
 
 const corsOptions = {
-  origin: "https://open-auto.netlify.app/"
+  origin: "https://open-auto.netlify.app"
 }
 
 app.use(cors(corsOptions))
